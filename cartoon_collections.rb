@@ -29,6 +29,7 @@ def find_the_cheese(array)# code an argument here
   cheese_types.each do |item|
     array.find do |x|
       x == item
+      binding.pry
     end
   end
 end
