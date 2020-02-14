@@ -18,8 +18,8 @@ def long_planeteer_calls(array)# code an argument here
   # Your code here
   is_true = false
   is_true = array.all? do |val|
-    val.length >= 4
-    binding.pry
+    val.length > 4
+
   end
   is_true
 end
