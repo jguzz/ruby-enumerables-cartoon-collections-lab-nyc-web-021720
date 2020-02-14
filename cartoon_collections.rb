@@ -17,7 +17,7 @@ end
 def long_planeteer_calls(array)# code an argument here
   # Your code here
   is_true = false
-  is_true = array.all? do |val|
+  is_true = array.any? do |val|
     val.length > 4
   end
   is_true
