@@ -29,7 +29,6 @@ def find_the_cheese(array)# code an argument here
   cheese_types.find do |item|
     array.each do |x|
       x == item
-    
     end
   end
 end
