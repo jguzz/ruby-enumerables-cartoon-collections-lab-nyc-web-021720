@@ -29,7 +29,7 @@ def find_the_cheese(array)# code an argument here
   cheese_types.find do |item|
     array.each do |x|
       x == item
-      binding.pry
+    
     end
   end
 end
